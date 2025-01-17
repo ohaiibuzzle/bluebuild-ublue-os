@@ -45,7 +45,7 @@ modules:
       - kitty
       - wofi
       - vifm
-    remove: {}
+    # remove: {}
 
   - type: script
     scripts:
