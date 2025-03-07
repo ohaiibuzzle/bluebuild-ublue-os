@@ -21,6 +21,6 @@ curl --retry 3 -Lo /etc/yum.repos.d/gmaglione-podman-bootc-fedora-"$(rpm -E %fed
     https://copr.fedorainfracloud.org/coprs/gmaglione/podman-bootc/repo/fedora-"$(rpm -E %fedora)"/gmaglione-podman-bootc-fedora-"$(rpm -E %fedora)".repo
 
 # RPMFusion
-dnf install \
+dnf install -y \
     https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-"$(rpm -E %fedora)".noarch.rpm \
     https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-"$(rpm -E %fedora)".noarch.rpm
