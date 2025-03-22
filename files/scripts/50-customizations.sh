@@ -50,3 +50,6 @@ systemctl enable nvidia-{suspend,resume,hibernate} greetd
 
 # Enable greetd
 systemctl enable greetd
+
+# Hides annoying boot messages
+grubby --args "quiet loglevel=3 splash" --update-kernel ALL
