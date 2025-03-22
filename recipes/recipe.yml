@@ -46,6 +46,16 @@ modules:
       - vifm
       - git
       - just
+      - wpctl
+      - brightnessctl
+      - playerctl
+      - firewalld
+      - network-manager-applet
+      - hyprpaper
+      - hyprlock
+      - hypridle
+      - blueman
+      - polkit-kde
     # remove: {}
 
   - type: script
