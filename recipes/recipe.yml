@@ -44,6 +44,7 @@ modules:
       - wofi
       - vifm
       - git
+      - just
     # remove: {}
 
   - type: script
