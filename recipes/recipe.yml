@@ -40,7 +40,7 @@ modules:
       - tuigreet
       - vulkan
       - hyprland
-      - kitty
+      - foot
       - wofi
       - vifm
       - git
