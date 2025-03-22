@@ -46,7 +46,7 @@ modules:
       - vifm
       - git
       - just
-      - wpctl
+      - wireplumber
       - brightnessctl
       - playerctl
       - firewalld
