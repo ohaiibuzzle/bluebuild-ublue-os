@@ -43,6 +43,7 @@ modules:
       - kitty
       - wofi
       - vifm
+      - git
     # remove: {}
 
   - type: script
