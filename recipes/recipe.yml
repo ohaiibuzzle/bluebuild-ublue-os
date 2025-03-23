@@ -46,7 +46,7 @@ modules:
       - waybar
       - vifm
       - git
-      - just
+      # - just
       # - wireplumber
       # - brightnessctl
       # - playerctl
