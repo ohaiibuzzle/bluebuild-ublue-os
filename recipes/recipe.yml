@@ -46,18 +46,17 @@ modules:
       - waybar
       - vifm
       - git
-      # - just
-      # - wireplumber
-      # - brightnessctl
-      # - playerctl
-      # - firewalld
-      # - network-manager-applet
-      # - hyprpaper
-      # - hyprlock
-      # - hypridle
-      # - blueman
-      # - polkit-kde
-      # - distrobox
+      - wireplumber
+      - brightnessctl
+      - playerctl
+      - firewalld
+      - network-manager-applet
+      - hyprpaper
+      - hyprlock
+      - hypridle
+      - blueman
+      - polkit-kde
+      - distrobox
     # remove: {}
 
   - type: script
