@@ -28,7 +28,7 @@ The `latest` tag will automatically point to the latest build. That build will s
 
 ## ISO
 
-Over [here](https://github.com/ohaiibuzzle/blue-build-playground/actions/workflows/create-iso.yml)
+Over [here](https://nightly.link/ohaiibuzzle/blue-build-playground/workflows/create-iso/main)
 
 ## Verification
 
