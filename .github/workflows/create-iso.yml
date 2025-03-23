@@ -71,7 +71,7 @@ jobs:
           iso_name: ${{ env.IMAGE_NAME }}-${{ env.IMAGE_TAG }}-${{ env.VERSION }}.iso
 
       - name: Upload ISO checksums as artifact
-        id: upload
+        id: upload-checksum
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.build.outputs.iso_name }}-CHECKSUM
@@ -81,7 +81,7 @@ jobs:
           compression-level: 0
 
       - name: Upload ISO as artifact
-        id: upload
+        id: upload-iso
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.build.outputs.iso_name }}
