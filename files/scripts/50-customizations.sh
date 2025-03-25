@@ -46,10 +46,7 @@ command = "tuigreet --cmd /bin/Hyprland"
 user = "greetd"
 EOF
 
-systemctl enable nvidia-{suspend,resume,hibernate} greetd
+# systemctl enable nvidia-{suspend,resume,hibernate} greetd
 
 # Enable greetd
 systemctl enable greetd
-
-# Remove just's docs
-rm -rf /usr/share/doc/just
