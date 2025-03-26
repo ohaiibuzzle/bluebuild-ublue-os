@@ -11,8 +11,9 @@ unzip 'MiSans_ALL.zip'
 cd 'MiSans Global _ALL'
 unzip MiSans.zip
 cd MiSans
-cp ttf/* /usr/share/fonts/MiSans
 
+mkdir -p /usr/share/fonts/MiSans
+cp ttf/* /usr/share/fonts/MiSans
 fc-cache -f /usr/share/fonts/MiSans
 
 cd /tmp && rm -rf misans
