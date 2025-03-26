@@ -58,6 +58,8 @@ modules:
       - grimshot
       - unzip
       - curl
+      - plymouth
+      - plymouth-plugin-script
     # remove: {}
 
   - type: script
