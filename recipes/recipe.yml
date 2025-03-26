@@ -68,6 +68,7 @@ modules:
       - xdg-user-dirs
       - grubby
       - breeze-icon-theme
+      - power-profiles-daemon
     # remove: {}
 
   - type: script
