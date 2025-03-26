@@ -19,8 +19,8 @@ rm -rf dotfiles
 
 # Xiaomi MiSans typeface
 mkdir misans && cd misans
-wget -L 'https://hyperos.mi.com/font-download/MiSans_Global_ALL.zip'
-unzip MiSans_Global_ALL.zip
+curl -L -o 'MiSans_ALL.zip' 'https://hyperos.mi.com/font-download/MiSans_Global_ALL.zip'
+unzip 'MiSans_ALL.zip'
 cd 'MiSans Global _ALL'
 unzip MiSans.zip
 cd MiSans
@@ -38,7 +38,7 @@ rm -rf plymouth
 
 # sddm
 mkdir sddm && cd sddm
-wget -L -O catppuccin.zip https://github.com/catppuccin/sddm/releases/download/v1.0.0/catppuccin-mocha.zip
+curl -L -o catppuccin.zip https://github.com/catppuccin/sddm/releases/download/v1.0.0/catppuccin-mocha.zip
 unzip catppuccin.zip
 mv catppuccin-mocha /usr/share/sddm/themes
 echo > /etc/sddm.conf << EOF
