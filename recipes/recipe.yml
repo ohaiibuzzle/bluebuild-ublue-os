@@ -67,6 +67,7 @@ modules:
       - ublue-brew
       - xdg-user-dirs
       - grubby
+      - breeze-icon-theme
     # remove: {}
 
   - type: script
