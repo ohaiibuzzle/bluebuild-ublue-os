@@ -41,7 +41,7 @@ mkdir sddm && cd sddm
 curl -L -o catppuccin.zip https://github.com/catppuccin/sddm/releases/download/v1.0.0/catppuccin-mocha.zip
 unzip catppuccin.zip
 mv catppuccin-mocha /usr/share/sddm/themes
-echo > /etc/sddm.conf.d/theme.conf << EOF
+cat > /etc/sddm.conf.d/theme.conf << EOF
 [Theme]
 Current=catppuccin-mocha
 Font=MiSans
