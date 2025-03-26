@@ -8,12 +8,13 @@ git clone https://github.com/ohaiibuzzle/dotfiles.git dotfiles
 
 # skel configs
 mkdir -p /etc/skel/.config/{hypr,wofi}
+mkdir -p /etc/xdg/waybar
 mkdir -p /usr/share/fonts/MiSans
 
 # copy configs over
-cp dotfiles/hypr/hypr{land,lock,idle}.conf /etc/skel/hypr/
-cp -rf dotfiles/waybar /etc/xdg/waybar
-cp -f dotfiles/wofi /etc/skel/.config/wofi
+cp dotfiles/hypr/hypr{land,lock,idle}.conf /etc/skel/.config/hypr/
+cp -rf dotfiles/waybar/* /etc/xdg/waybar/
+cp -f dotfiles/wofi/* /etc/skel/.config/wofi/
 rm -rf dotfiles
 
 # Xiaomi MiSans typeface
