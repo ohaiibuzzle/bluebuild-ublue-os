@@ -7,9 +7,9 @@ on:
 
 env:
   ARCH: "x86_64"
-  IMAGE_NAME: "buzzle-fedora-atomic" # the name of the image produced by this build, matches repo names
-  IMAGE_DESC: "Buzzle's Fedora Atomic Image"
-  IMAGE_TAG: "41"
+  IMAGE_NAME: "buzzle-ublue-bluebuild" # the name of the image produced by this build, matches repo names
+  IMAGE_DESC: "Buzzle's uBlue Image (bluebuild variant)"
+  IMAGE_TAG: "latest"
   IMAGE_REGISTRY: "ghcr.io/${{ github.repository_owner }}" # do not edit
   VARIANT: "main"
   VERSION: "41"
