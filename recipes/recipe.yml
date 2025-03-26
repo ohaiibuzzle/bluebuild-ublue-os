@@ -62,6 +62,7 @@ modules:
       - plymouth
       - plymouth-plugin-script
       - sbctl
+      - fontawesome-fonts-all
     # remove: {}
 
   - type: script
