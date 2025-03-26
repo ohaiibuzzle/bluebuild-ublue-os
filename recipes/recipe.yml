@@ -65,6 +65,7 @@ modules:
       - sbctl
       - fontawesome-fonts-all
       - ublue-brew
+      - xdg-user-dirs
     # remove: {}
 
   - type: script
