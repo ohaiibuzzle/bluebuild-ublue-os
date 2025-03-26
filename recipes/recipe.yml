@@ -57,6 +57,7 @@ modules:
       - distrobox
       - grimshot
       - unzip
+      - wget
     # remove: {}
 
   - type: script

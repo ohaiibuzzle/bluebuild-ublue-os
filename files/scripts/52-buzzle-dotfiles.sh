@@ -19,7 +19,7 @@ rm -rf dotfiles
 
 # Xiaomi MiSans typeface
 mkdir misans && cd misans
-wget -L https://hyperos.mi.com/font-download/MiSans_Global_ALL.zip
+wget -L 'https://hyperos.mi.com/font-download/MiSans_Global_ALL.zip'
 unzip MiSans_Global_ALL.zip
 cd 'MiSans Global _ALL'
 unzip MiSans.zip
