@@ -5,15 +5,9 @@ set -eoux pipefail
 cd /tmp
 
 # Xiaomi MiSans typeface
-mkdir misans && cd misans
-curl -L -o 'MiSans_ALL.zip' 'https://hyperos.mi.com/font-download/MiSans_Global_ALL.zip'
-unzip 'MiSans_ALL.zip'
-cd 'MiSans Global _ALL'
-unzip MiSans.zip
-cd MiSans
-
+git clone https://github.com/dsrkafuu/misans.git misans
 mkdir -p /usr/share/fonts/MiSans
-cp ttf/* /usr/share/fonts/MiSans
+cp misans/raw/Normal/ttf/* /usr/share/fonts/MiSans
 fc-cache -f /usr/share/fonts/MiSans
 
 cd /tmp && rm -rf misans

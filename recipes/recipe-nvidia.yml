@@ -4,6 +4,7 @@
 name: buzzle-ublue-bluebuild
 # description will be included in the image's metadata
 description: Buzzle's ublue image.
+alt-tags: nvidia
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/base-main
@@ -27,6 +28,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/ublue-os/packages/repo/fedora-%OS_VERSION%/ublue-os-packages-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-%OS_VERSION%/solopasha-hyprland-fedora-%OS_VERSION%.repo
     install:
+      - akmod-nvidia
       - micro
       - nano
       - flatpak
