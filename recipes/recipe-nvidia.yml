@@ -29,7 +29,6 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/ublue-os/packages/repo/fedora-%OS_VERSION%/ublue-os-packages-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-%OS_VERSION%/solopasha-hyprland-fedora-%OS_VERSION%.repo
     install:
-      - akmod-nvidia
       - micro
       - nano
       - flatpak
@@ -78,6 +77,7 @@ modules:
 
   - type: script
     scripts:
+      - 40-nvidia.sh
       - 50-base-customizations.sh
       - 51-vscode.sh
       - 52-buzzle-dotfiles.sh
