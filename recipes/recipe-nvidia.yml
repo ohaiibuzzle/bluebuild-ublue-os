@@ -78,6 +78,7 @@ modules:
   - type: script
     scripts:
       - 50-base-customizations.sh
+      - 51-vscode.sh
       - 52-buzzle-dotfiles.sh
 
   - type: default-flatpaks
