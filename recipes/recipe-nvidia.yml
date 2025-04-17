@@ -43,7 +43,6 @@ modules:
       - python3-pip
       - vulkan
       - hyprland
-      - foot
       - wofi
       - waybar
       - vifm
