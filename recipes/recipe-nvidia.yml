@@ -4,7 +4,8 @@
 name: buzzle-ublue-bluebuild
 # description will be included in the image's metadata
 description: Buzzle's ublue image.
-alt-tags: nvidia
+alt-tags: 
+  - nvidia
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/base-main
