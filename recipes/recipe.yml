@@ -70,6 +70,7 @@ modules:
       - xdg-desktop-portal-hyprland
       - hyprland-plugins
       - hyprshot
+      - hyprland-qtutils
     # remove: {}
 
   - type: script
