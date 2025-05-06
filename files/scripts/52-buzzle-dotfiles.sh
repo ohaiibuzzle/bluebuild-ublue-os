@@ -5,7 +5,7 @@ set -eoux pipefail
 cd /tmp
 
 # Xiaomi MiSans typeface
-git clone https://github.com/dsrkafuu/misans.git misans
+git clone https://github.com/ohaiibuzzle/misans.git misans
 mkdir -p /usr/share/fonts/MiSans
 cp misans/raw/Normal/ttf/* /usr/share/fonts/MiSans
 fc-cache -f /usr/share/fonts/MiSans
