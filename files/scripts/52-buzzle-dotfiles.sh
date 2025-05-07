@@ -14,7 +14,7 @@ cd /tmp && rm -rf misans
 
 # Plymouth
 git clone https://github.com/ohaiibuzzle/Plymouth-SimulatedUniverse.git plymouth
-cp -r plymouth/SimulatedUniverse-4k /usr/share/plymouth/themes/SimulatedUniverse
+cp -r plymouth/SimulatedUniverse /usr/share/plymouth/themes/SimulatedUniverse
 plymouth-set-default-theme SimulatedUniverse
 rm -rf plymouth
 

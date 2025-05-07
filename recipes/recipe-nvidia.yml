@@ -73,6 +73,7 @@ modules:
       - hyprland-plugins
       - hyprshot
       - hyprland-qtutils
+      - gnome-keyring
     # remove: {}
 
   - type: script
