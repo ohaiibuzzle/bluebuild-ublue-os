@@ -85,6 +85,8 @@ modules:
     system:
       install:
         - org.mozilla.firefox
+        - com.github.tchx84.Flatseal
+        - io.github.dvlv.boxbuddyrs
     user: {} # Also add Flathub user repo, but no user packages
 
   - type: initramfs
