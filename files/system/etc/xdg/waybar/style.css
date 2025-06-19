@@ -1,6 +1,6 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: 'Mi Sans';
+    font-family: 'Mi Sans', 'Font Awesome 6 Free', 'Font Awesome 6 Brands';
     font-size: 13px;
     border-radius: 10px;
 }
@@ -50,7 +50,7 @@ button:hover {
 }
 
 #workspaces button {
-    padding: 0 5px;
+    padding: 0 1px;
     background-color: transparent;
     color: #ffffff;
 }
