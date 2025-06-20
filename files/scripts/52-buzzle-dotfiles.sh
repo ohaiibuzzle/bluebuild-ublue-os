@@ -24,3 +24,6 @@ curl -L -o catppuccin.zip https://github.com/catppuccin/sddm/releases/download/v
 unzip catppuccin.zip
 mv catppuccin-mocha /usr/share/sddm/themes
 cd /tmp && rm -rf sddm
+
+# update dconf
+dconf update
