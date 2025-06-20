@@ -1,4 +1,4 @@
-[org.gnome.desktop.interface]
+[org/gnome/desktop/interface]
 document-font-name='MiSans 11'
 monospace-font-name='Fira Mono 11'
 font-name='MiSans 11'
