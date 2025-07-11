@@ -72,6 +72,7 @@ modules:
       - hyprshot
       - hyprland-qtutils
       - gnome-keyring
+      - tailscale
     # remove: {}
 
   - type: script
