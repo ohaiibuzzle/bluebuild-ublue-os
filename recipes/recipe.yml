@@ -81,14 +81,20 @@ modules:
       - 51-vscode.sh
       - 52-buzzle-dotfiles.sh
 
-  - type: default-flatpaks
-    notify: true # Send notification after install/uninstall is finished (true/false)
-    system:
-      install:
-        - org.mozilla.firefox
-        - com.github.tchx84.Flatseal
-        - io.github.dvlv.boxbuddyrs
-    user: {} # Also add Flathub user repo, but no user packages
+  - type: default-flatpaks@v2
+    configurations: 
+      - notify: true # Send notification after install/uninstall is finished (true/false)
+        scope: system
+        repo:
+          title: Flathub (system)
+        install:
+          - org.mozilla.firefox
+          - com.github.tchx84.Flatseal
+          - io.github.dvlv.boxbuddyrs
+      - scope: user
+        repo:
+          title: Flathub (user)
+
 
   - type: initramfs
 
