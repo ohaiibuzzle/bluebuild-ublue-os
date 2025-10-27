@@ -74,7 +74,7 @@ jobs:
 
       - name: Upload ISO checksums as artifact
         id: upload-checksum
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ steps.build.outputs.iso_name }}-CHECKSUM
           path: ${{ steps.build.outputs.iso_name }}-CHECKSUM
@@ -84,7 +84,7 @@ jobs:
 
       - name: Upload ISO as artifact
         id: upload-iso
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ steps.build.outputs.iso_name }}
           path: ${{ steps.build.outputs.iso_name }}
