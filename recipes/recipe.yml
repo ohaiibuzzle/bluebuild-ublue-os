@@ -30,7 +30,6 @@ modules:
       - nano
       - flatpak
       - sddm
-      - mozilla-fira-fonts
       - nerd-fonts
       - podman-bootc
       - podman-compose
