@@ -94,6 +94,11 @@ modules:
         repo:
           title: Flathub (user)
 
+  - type: kargs
+    arch: x86_64, aarch64
+    kargs:
+      - quiet
+      - splash
 
   - type: initramfs
 
