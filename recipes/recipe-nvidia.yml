@@ -78,9 +78,14 @@ modules:
         - gdisk
     # remove: {}
 
+  - type: akmods
+    base: main
+    install:
+      - xone
+    nvidia-driver: nvidia-open
+
   - type: script
     scripts:
-      - 40-nvidia.sh
       - 50-base-customizations.sh
       - 51-vscode.sh
       - 52-buzzle-dotfiles.sh
