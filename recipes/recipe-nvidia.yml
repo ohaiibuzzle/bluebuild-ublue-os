@@ -75,6 +75,7 @@ modules:
         - hyprland-qtutils
         - gnome-keyring
         - tailscale
+        - gdisk
     # remove: {}
 
   - type: script
