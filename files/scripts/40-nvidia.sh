@@ -1,8 +1,10 @@
 #!/bin/bash
 
+set -euox pipefail
+
 mkdir /tmp/akmods-nvidia /tmp/akmods-extract
 skopeo copy --retry-times 3 docker://ghcr.io/ublue-os/akmods-nvidia:main-"$(rpm -E %fedora)" dir:/tmp/akmods-nvidia
-NVIDIA_TARGZ=$(jq -r '.layers[].digest' </tmp/akmods-rpms/manifest.json | cut -d : -f 2)
+NVIDIA_TARGZ=$(jq -r '.layers[].digest' </tmp/akmods-nvidia/manifest.json | cut -d : -f 2)
 tar -xvzf /tmp/akmods-nvidia/"$NVIDIA_TARGZ" -C /tmp/akmods-extract
 
 dnf5 -y remove --no-autoremove kernel kernel-core kernel-modules kernel-modules-core kernel-modules-extra
