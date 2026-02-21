@@ -21,7 +21,6 @@ modules:
     repos:
       copr:
         - atim/starship
-        - ublue-os/staging
         - ublue-os/packages
         - che/nerd-fonts
         - gmaglione/podman-bootc
@@ -74,6 +73,7 @@ modules:
         - gnome-keyring
         - tailscale
         - gdisk
+        - fwupd
     # remove: {}
 
   - type: script
